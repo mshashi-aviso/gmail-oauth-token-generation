@@ -12,9 +12,8 @@ from google.oauth2.credentials import Credentials
 '''
 Copy the content of the credentials.json file here
 '''
-CLIENT_CONFIG = {"installed": {"client_id": "891105649498-afatd5u358buit1qib8sl6geo30406d1.apps.googleusercontent.com", "project_id": "avisoemailactivity", "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-                               "token_uri": "https://oauth2.googleapis.com/token", "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs", "client_secret": "KJlU3oYfLAYEjkG0hi2wm2pi", "redirect_uris": ["urn:ietf:wg:oauth:2.0:oob", "http://localhost"]}}
-
+# CLIENT_CONFIG = {"installed": {"client_id": "blah blah", ...... }}
+CLIENT_CONFIG = '' #TODO placeholder
 
 # Add the additional scopes here if required
 # If modifying these scopes, delete the file token.pickle.
